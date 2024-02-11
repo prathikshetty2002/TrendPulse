@@ -1,7 +1,7 @@
-keras>=2.7.0rc0,<2.8
+keras
 numpy==1.24.2
 pandas==1.5.3
 plotly==5.18.0
 scikit_learn==1.2.1
 streamlit==1.31.0
-tensorflow==2.7.0
+tensorflow
