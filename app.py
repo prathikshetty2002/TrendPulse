@@ -7,14 +7,14 @@ from keras.layers import Dense, LSTM
 import math
 import plotly.express as px
 
-page_bg_img = '''
+page_bg_img = """
 <style>
 body {
 background-image: url("https://res.cloudinary.com/db5b6tsjm/image/upload/v1707658551/196057-financial-desktop-wallpaper-top-free-financial-desktop_rcunxz.jpg");
 background-size: cover;
 }
 </style>
-'''
+"""
 # Function to load the dataset
 def load_dataset(uploaded_file):
     if uploaded_file is not None:
